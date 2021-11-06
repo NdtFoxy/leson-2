@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/Img/pexels-hasan-albari.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: #ebd4d4;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Fruktur', cursive;
+}
+
+.main-header{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.container-1{
+    width: 800px;
+    height: 700px;
+    padding: 30px;
+    background:#463333 ;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px #271b1b;
+}
+
+h2{
+    padding: 30px;
+    color:#ebd4d4;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.mid-container-1{
+    padding: 30px;
+}
+
+.part-1{
+    padding: 20px;
+    width: 100%;
+}
+
+.parts-1, .parts-2, .parts-3{
+    padding: 10px;
+    color:#99b898;
+    font-weight: 400;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+i:hover{
+    font-size: 35px;
+}
+
+.parts-1{
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    padding-right: 70px;
+    position: relative;
+    text-decoration: none;
+}
+
+.parts-1::after{
+    content: "";
+    background: url("http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg") center center no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    line-height: 19px;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+}
+
+.parts-1:hover::after{
+    content: "";
+    width: 120%;
+    height: 120%;
+    top: 0;
+    bottom: 0;
+    right: -220px;
+    line-height: 19px;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+}
+
+.parts-2{
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    padding-right: 70px;
+    position: relative;
+    text-decoration: none;
+}
+.parts-2::after{
+    content: "";
+    background: url("http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg") center center no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    line-height: 19px;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+}
+
+.parts-2::before{
+      content: "";
+      position: absolute;
+      background: url("http://www.candicendexter.com/images/hexagon.svg") center top no-repeat;
+      width: 50px;
+      height: 50px;
+      top: 0;
+      bottom: 0;
+      right: 10px;
+      line-height: 19px;
+      margin: auto;
+      padding: 0;
+}
+
+.parts-2:hover:before{
+    transform: rotate(90deg);
+}
+
+.parts-3::after{
+    content: "(https://www.google.com)";
+    color: #feceab;
+}
+
+.container-2{
+    text-align: center;
+}
+
+h3{
+    font-size: 26px;
+    color: #fff0f0;
+    padding: 10px;
+}
+
+.main-mid{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    padding: 60px;
+    width: 700px;
+    height: 800px;
+    background:#463333;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px 5px #271b1b;
+}
+
+.parts-4, .parts-5, .parts-6, .parts-7, .parts-8, .parts-9, .parts-10, .parts-11, .parts-12, .parts-13, .parts-14, .parts-15, .parts-16,.parts-17,.parts-18,.parts-19, .parts-11-1{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:#99b898;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.parts-4:visited{
+    color: #ff9a76;
+}
+
+.parts-5:link{
+    color: #e84a5f;
+}
+
+.parts-6:hover{
+    font-weight: 800;
+}
+
+.parts-7:active{
+    font-weight: 800;
+    color: #ff847c;
+}
+
+.parts-8:focus{
+    font-weight: 800;
+    color: #e84a5f;
+}
+
+input{
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    background: rgba(255, 255, 255, .5);
+    outline: none;
+    border: none;
+    padding: 20px;
+
+}
+
+.parts-10{
+    text-align: center;
+    padding: 10px;
+    color:#99b898;
+    font-weight: 400;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.container-3{
+    text-align: center;
+    width: 700px;
+    height: 900px;
+    background:#463333;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px #271b1b;
+}
+
+h4{
+    color: #ebd4d4;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Fruktur', cursive;
+}
+
+h5{
+    color: #ebd4d4;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+p{
+    color: #ebd4d4;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.parts-11-1:ONLY-CHILD{
+    color: #000;
+}
+
+.parts-12:last-child{
+    color: #000;
+}
+
+.parts-14:first-of-type{
+    color: rgb(202, 121, 0);
+}
+
+.parts-16:only-of-type{
+    color: #000;
+}
+
+.parts-17:last-of-type{
+    color: #000;
+}
+
+.parts-18:nth-child(n){
+    color: rgb(196, 127, 0);
+}
